@@ -1,13 +1,11 @@
 import Statistics from "./componets/Statistics.jsx"
 import FriendList from "./componets/FriendList.jsx"
 import TransactionHistory from "./componets/TransactionHistory.jsx"
-import Products from "./componets/Products.jsx"
 import Profile from "./componets/Profile.jsx"
 import data from "./data.json"
 import user from "./user.json"
 import friends from "./friends.json"
 import transactions from "./transactions.json"
-import products from "./products.json"
 import './App.css'
 
 function App() {
@@ -37,10 +35,6 @@ function App() {
 
 
       <TransactionHistory items={transactions} />;
-
-
-
-      <Products items={products}/>
     </>
   )
 }
